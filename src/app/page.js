@@ -23,7 +23,7 @@ export default async function Page() {
         <h1 className="text-4xl m-5 font-bold">My To-do List</h1>
       </div>
       <div className="grid justify-items-center grid-cols-3 gap-y-4 gap-x-2 sm:grid-cols-2 md:grid-cols-3">
-        {data.map((todo) => {
+        {data?.map((todo) => {
           return (
             <TodoCard
               key={todo._id}
