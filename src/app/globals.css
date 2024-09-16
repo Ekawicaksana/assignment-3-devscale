@@ -23,7 +23,7 @@
     @apply bg-rose-600 text-rose-100;
   }
   .card {
-    @apply w-fit rounded-xl border border-slate-300 border-slate-50 px-4;
+    @apply w-fit rounded-xl border-slate-50 px-4;
   }
   .card-pink {
     @apply border-rose-500 bg-rose-100 text-rose-600;
